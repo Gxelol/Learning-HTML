@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    background: rgba(0, 0, 0, 0.7)
+}
+
+.heading {
+    padding: 20px 30px 20px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #E50914;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.login {
+    color: white;
+    background: #E50914;
+    width: 60px;
+    height: 36px;
+    text-align: center;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(https://mundoconectado.com.br/uploads/chamadas/netflix-1.jpg);
+}
+
+p {
+    color: white;
+    font-size: 70px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.introdution {
+    text-align: center;
+    margin-top: 70px;
+}
+
+
+
+
+
