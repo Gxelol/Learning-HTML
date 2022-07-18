@@ -1,6 +1,6 @@
 .section-one, 
 .section-two {
-box-sizing: border-box;
+box-sizing: border-box; /*counts the padding, border and content in width and height*/
 }
 
 .section-one {
