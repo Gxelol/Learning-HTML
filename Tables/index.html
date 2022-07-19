@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Tables</title>
+</head>
+<body>
+    <p class="title">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p><br>
+
+<div class="responsive-table">
+    <table>
+        <caption>Description</caption>
+        <thead>
+            <tr>
+                <th>Book</th>
+                <th>Book</th>
+                <th>Book</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Name 1</td> <!--rowspan="1" , occupies the line--> 
+                <td>Name 2</td>
+                <td>Name 3</td>
+            </tr>
+            <tr>
+                <td>Name 1</td> <!--colspan="2"-->
+                <td>Name 2</td> <!--without this line, the comment above will prevail two columns-->
+                <td>Name 3</td>
+            </tr>
+            <tr>
+                <td>Name 1</td>
+                <td>Name 2</td>
+                <td>Name 3</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Footer</td>
+                <td>Footer</td>
+                <td>Footer</td>
+            </tr>
+        </tfoot>
+
+    </table>
+</div>
+</body>
+</html>
