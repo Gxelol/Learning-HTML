@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Forms and Inputs</title>
+</head>
+<body>
+    
+    <form action="#" method="get"> <!--target="_blank" / autocomplete="off"-->
+        
+        <h1 class="title">Application form</h1>
+
+        <p class="subtitle">Form:</p>
+
+        <!--
+            <fieldset>
+                <legend>Something</legend>
+            </fieldset> 
+        -->
+
+    </form>
+
+    <form action="#" method="get">
+
+        <p class="name">
+            <label for="username">Name:</label>
+            <input type="text" id="username" name="name" placeholder="Your name"> <!--value="" / disabled / readonly / required-->
+        </p>
+
+        <p class="employed">
+            <label for="employed">Are you employed?:</label>
+            <input type="checkbox" id="employed" name="employed" value="yes"> <!--checked-->
+        </p>
+        
+        <p class="genre">
+            <label for="Genre">Genre:</label>
+            <input type="radio" id="male" name="name" value="male"> Male <br>
+            
+            <label for="Genre"></label>
+            <input type="radio" id="female" name="name" value="female"> Female <br>
+            
+            <label for="Genre"></label>
+            <input type="radio" id="others" name="name" value="others"> Others 
+        </p>
+
+        <p class="date">
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date">
+        </p>
+
+        <p class="datetime">
+            <label for="datetime">Date and time:</label>
+            <input type="datetime-local" id="datetime" name="datetime">
+        </p>
+
+        <p class="time">
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time">
+        </p>
+        
+        <p class="color">
+            <label for="color">Favorite color:</label>
+            <input type="color" id="color" name="color" value="#e23487">
+        </p>
+        
+        <p class="email">
+            <label for="email">Your email:</label>
+            <input type="email" id="email" name="email" placeholder="user123@example.com"> 
+        </p>
+        
+        <p class="file">
+            <label for="file">Your photo:</label>
+            <input type="file" id="file" name="file"> <!-- multiple, more than one file--> 
+        </p>
+        
+        <p class="number">
+            <label for="number">Type a number:</label>
+            <input type="number" id="number" name="number" min="10" max="120"> <!--step-->
+        </p>
+        
+        <p class="password">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Type your password">
+        </p>
+                
+        <p class="range">
+            <label for="range">Range:</label>
+            <input type="range" id="range" name="range" list="tickmarks">
+            <datalist id="tickmarks">
+                <option value="0" label="0">0</option>
+                <option value="10"></option>
+                <option value="20"></option>
+                <option value="30"></option>
+                <option value="40"></option>
+                <option value="50" label="50"></option>
+                <option value="60"></option>
+                <option value="70"></option>
+                <option value="80"></option>
+                <option value="90"></option>
+                <option value="100" label="100"></option>
+            </datalist>
+        </p>
+
+        <p class="url">
+            <label for="url">Your link:</label>
+            <input type="url" id="url" name="url" placeholder="URL">
+        </p>
+
+        <p class="search">
+            <label for="search">Search:</label>
+            <input type="search" id="search" name="search" placeholder="Search">
+        </p>
+
+        <p class="select">
+            <label for="select">Select:</label>
+            <select name="select" id="select">
+                <optgroup label="Drinks">
+                    <option value="some1" label="Soda"></option>
+                    <option value="some2" label="Coffe"></option>
+                    <option value="some3" label="Juice"></option>
+                    <option value="some4" label="Water"></option>
+                </optgroup>
+                <optgroup label="Food">
+                    <option value="some1" label="Pizza"></option>
+                    <option value="some2" label="Hamburguer"></option>
+                    <option value="some3" label="Salad"></option>
+                    <option value="some4" label="Spaghetti"></option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p class="textarea">
+            <label for="textarea">Type a text:</label>
+            <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+        </p>
+
+                
+        <p>
+            <button type="submit">Send</button>
+            <button type="reset">Reset</button>
+        </p>
+
+    </form>
+    
+</body>
+</html>
