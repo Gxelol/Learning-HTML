@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+.fath {
+    width: 30rem;
+    height: 30rem;
+    background: pink;
+}
+
+/* p {
+    font-size: 0.5em; em is based on father's measure
+} */
+
+p {
+    font-size: 1rem; /*rem is based on root's measure*/
+}
+
+.color-one {
+    height: 100vh;
+    background: sandybrown;
+}
+
+.color-two {
+    height: 100vh;
+    background: turquoise;
+}
+
+.color-three {
+    height: 100vh;
+    background: deeppink;
+}
