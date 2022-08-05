@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 30px;
+    /*font-style: italic;
+    font-weight: bold;
+    direction: ltr;
+    letter-spacing: 2px;
+    word-spacing: 5px;*/
+    line-height: 20px;
+    text-align: left;
+    /* text-decoration: line-through underline; */
+    text-indent: 50px;
+    text-shadow: 1px 1px 0 salmon;
+    text-transform: capitalize;
+    /* https://www.w3schools.com/css/css_text.asp */
+}
