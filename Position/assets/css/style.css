@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.daugh1, 
+.daugh2, 
+.daugh3, 
+.daugh4, 
+.daugh5{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    position: absolute;
+}
+
+.daugh1 {
+    background: #00e291;
+}
+
+.daugh2 {
+    background: salmon;
+    left: 300px;
+    top: 300px;
+}
+
+.daugh3 {
+    background: deeppink;
+    top: 300px;
+}
+
+.daugh4 {
+    background: aqua;
+    left: 300px;
+}
+
+.daugh5 {
+    background: lightblue;
+    left: 150px;
+    top: 150px;
+}
+
+/* .darkground {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); */
+
+/* .home {
+    background: aqua;
+    width: 100%;
+    height: 100px;
+}
+
+.about {
+    background: lemonchiffon;
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    background: lightcoral;
+    width: 100%;
+    height: 100%;
+}
+
+.bio {
+    background: seagreen;
+    width: 100%;
+    height: 100%;
+}
+
+.contact {
+    background: mediumorchid;
+    width: 100%;
+    height: 100%;
+} */
+
+.menu {
+    width: 100%;
+    height: 50px;
+    background: maroon;
+    justify-content: space-between;
+    text-align: center;
+    z-index: 1;
+    position: fixed;
+}
+
+a {
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
